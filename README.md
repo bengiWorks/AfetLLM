@@ -25,7 +25,7 @@ The model was evaluated on a held-out test set (10% of the original data). While
 | **F1-Score** | 0.1202 |
 
 ## Repository Structure
-- `AfetLLM_FineTuning.ipynb`: Jupyter notebook containing the full training and evaluation pipeline.
+- `Afet_LLM_Qwen2_QLoRA.ipynb`: Jupyter notebook containing the full training and evaluation pipeline.
 - `afet_llm_final_dataset.jsonl`: Specialized dataset containing disaster scenarios and SOPs.
 - `adapter_config.json` & `adapter_model.safetensors`: The trained LoRA weights (adapters).
 

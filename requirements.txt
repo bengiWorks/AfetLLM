@@ -1,0 +1,8 @@
+transformers
+accelerate
+peft
+bitsandbytes
+datasets
+evaluate
+rouge_score
+sacrebleu

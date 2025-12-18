@@ -1,6 +1,6 @@
 # AfetLLM: Domain-Specific Large Language Model for Disaster Management 
 
-[![Open In Colab](https://colab.research.google.com/drive/133ItwK44O0RjQETDDCjaxvy8W6JJksA4?usp=drive_link)]
+[![Open In Colab]([https://colab.research.google.com/drive/133ItwK44O0RjQETDDCjaxvy8W6JJksA4?usp=sharing])]
 
 
 AfetLLM is a Large Language Model (LLM) specifically fine-tuned to provide accurate and procedural responses (SOP) during earthquake and emergency disaster scenarios.

@@ -12,7 +12,7 @@ This project fine-tunes the **Qwen2-1.5B-Instruct** base model using **QLoRA (4-
 - **Hardware:** Google Colab (NVIDIA Tesla T4 GPU)
 - **Language:** Turkish (Target Domain)
 
-## 📊 Training and Evaluation Results
+## Training and Evaluation Results
 The model was evaluated on a held-out test set (10% of the original data). While n-gram based metrics (BLEU/ROUGE) are naturally lower in Turkish due to its agglutinative nature, the model shows high semantic alignment with official protocols.
 
 | Metric | Score |
@@ -22,12 +22,12 @@ The model was evaluated on a held-out test set (10% of the original data). While
 | **BLEU** | 2.28 |
 | **F1-Score** | 0.1202 |
 
-## 📂 Repository Structure
+## Repository Structure
 - `AfetLLM_FineTuning.ipynb`: Jupyter notebook containing the full training and evaluation pipeline.
 - `afet_llm_final_dataset.jsonl`: Specialized dataset containing disaster scenarios and SOPs.
 - `adapter_config.json` & `adapter_model.safetensors`: The trained LoRA weights (adapters).
 
-## 📝 Sample Inference (Turkish)
+## Sample Inference (Turkish)
 Since the model is specialized for Turkish disaster response, here is a sample output:
 
 **Instruction (Talimat):** İletişimin kesildiği bir ortamda yaralı tahliyesi nasıl planlanmalıdır?

@@ -2,7 +2,7 @@
 
 AfetLLM is a Large Language Model (LLM) specifically fine-tuned to provide accurate and procedural responses (SOP) during earthquake and emergency disaster scenarios.
 
-## roject Overview
+## Project Overview
 This project fine-tunes the **Qwen2-1.5B-Instruct** base model using **QLoRA (4-bit)**. The model is specialized in disaster management terminology, search-and-rescue strategies, and emergency coordination protocols.
 
 ### Key Technical Details:

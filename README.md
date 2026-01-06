@@ -14,15 +14,6 @@ This project fine-tunes the **Qwen2-1.5B-Instruct** base model using **QLoRA (4-
 - **Hardware:** Google Colab (NVIDIA Tesla T4 GPU)
 - **Language:** Turkish (Target Domain)
 
-## Training and Evaluation Results
-The model was evaluated on a held-out test set (10% of the original data). While n-gram based metrics (BLEU/ROUGE) are naturally lower in Turkish due to its agglutinative nature, the model shows high semantic alignment with official protocols.
-
-| Metric | Score |
-| :--- | :--- |
-| **Final Training Loss** | 0.4452 |
-| **ROUGE-L** | 0.1723 |
-| **BLEU** | 2.28 |
-| **F1-Score** | 0.1202 |
 
 ## Repository Structure
 - `Afet_LLM_Qwen2_QLoRA.ipynb`: Jupyter notebook containing the full training and evaluation pipeline.
